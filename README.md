@@ -14,3 +14,15 @@ This is a Python-based Object-Oriented Banking System that supports:
 ✔️ **InterestRewardAccount Class** – Deposits with 5% interest  
 ✔️ **SavingAcct Class** – Includes withdrawal fees  
 ✔️ **Exception Handling** – Prevents overdrafts  
+
+Concepts & Tools Used in Your Bank Account System
+
+1. Object-Oriented Programming (OOP)
+Classes & Objects → BankAccount, InterestRewardAccount, SavingAcct
+Inheritance → InterestRewardAccount and SavingAcct inherit from BankAccount
+Encapsulation → Storing account balance and name inside the class
+Method Overriding → deposit and withdraw methods are overridden in child classes
+
+3. Exception Handling
+Custom Exceptions → BalanceException to handle low balance situations
+Try-Except Blocks → Handling withdrawal and transfer failures gracefully
